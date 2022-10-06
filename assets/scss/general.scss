@@ -1,0 +1,127 @@
+@import "../fonts/SegoeUI/stylesheet.css";
+
+html {
+    font-family: SegoeUI, Arial, serif;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+html, body, #__nuxt, #__layout, .layout, main {
+    width: 100%;
+    height: 100%;
+}
+
+.b-table.overflow-table {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    overflow: hidden;
+
+    > .table-wrapper {
+        height: 100%;
+        margin-bottom: 0;
+        overflow: auto !important;
+    }
+
+    > .level {
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+}
+
+.tab-content {
+    padding: 1rem;
+}
+
+.mh-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mv-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.justify-content_end {
+    justify-content: flex-end;
+}
+
+.flex-direction_column {
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mv-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.horizontal-paper_a4 {
+    width: 297mm;
+    padding: 10mm;
+}
+
+.vertical-paper_a4 {
+    width: 210mm;
+    padding: 10mm;
+}
+
+.paper_table {
+    td, th {
+        border: solid 1px #000;
+        vertical-align: middle;
+        padding: 6px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    td {
+        /deep/ {
+            input, select {
+                border: none !important;
+                box-shadow: none !important;
+            }
+        }
+    }
+}
+
+.cell-center {
+    vertical-align: middle !important;
+}
+
+td, th {
+    vertical-align: middle !important;
+}
+
+.td-inner {
+    display: flex;
+    justify-content: space-between;
+
+    > * {
+        display: flex;
+        align-items: center;
+    }
+}

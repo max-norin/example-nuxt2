@@ -1,0 +1,28 @@
+{
+  "name": "technologist",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.8.55",
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@riophae/vue-treeselect": "^0.4.0",
+    "buefy": "^0.9.4",
+    "css-reset-and-normalize-sass": "^0.1.2",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.4",
+    "nuxt-buefy": "^0.3.31",
+    "sass-loader": "^10.0.5",
+    "vue": "^2.6.12",
+    "vue-select": "^3.16.0",
+    "vuelidate": "^0.7.6",
+    "vuelidate-error-extractor": "^2.4.1"
+  }
+}
